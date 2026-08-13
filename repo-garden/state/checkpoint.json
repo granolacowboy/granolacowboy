@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.1",
+  "project": "github-repo-garden",
+  "github_user": "granolacowboy",
+  "control_repo_status": "REMOTE_PRIVATE_STAGING_BRANCH_ACTIVE",
+  "owned_repo_count": 1250,
+  "fork_count": 1205,
+  "original_count": 45,
+  "forks_created_2025": 1200,
+  "forks_created_2026": 5,
+  "may_2025_forks": 600,
+  "may_24_2025_forks": 443,
+  "inventory_complete": false,
+  "current_sweep": "A_EXACT_FORK_STAR_OVERLAP",
+  "structural_records_persisted": 10,
+  "recommended_delete_redundant": 9,
+  "recommended_star_then_delete": 1,
+  "approved_stars": 0,
+  "approved_deletions": 0,
+  "destructive_actions_executed": 0,
+  "live_star_count_from_star_garden": 2664,
+  "live_star_identity_set_materialized": false,
+  "blockers": [
+    "target private control repository granolacowboy/github-repo-garden does not yet exist",
+    "GitHub connector exposes no create-repository/delete-repository/star/unstar actions",
+    "fresh star ID set is available via public GitHub REST reads but not yet fully materialized"
+  ],
+  "last_updated": "2026-08-13T04:27:00Z",
+  "next_operation": "Persist bootstrap to private staging branch; materialize fresh star IDs; expand Sweep A over the 2025 bulk-fork cohorts; migrate staging atomically when github-repo-garden becomes writable.",
+  "staging_repository": "granolacowboy/granolacowboy",
+  "staging_branch": "repo-garden-staging",
+  "staging_prefix": "repo-garden/"
+}
