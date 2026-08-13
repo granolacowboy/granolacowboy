@@ -114,6 +114,25 @@ def gh_json(endpoint: str, *, method: str = 'GET', paginate: bool = False, field
     return json.loads(text)
 
 
+def is_not_found_error(text: str) -> bool:
+    lower = text.lower()
+    return '404' in lower and 'not found' in lower
+
+
+def gh_repo_absent(repo_id: int) -> bool:
+    cmd = ['gh', 'api', f'/repositories/{repo_id}']
+    try:
+        proc = subprocess.run(cmd, text=True, capture_output=True)
+    except FileNotFoundError as exc:
+        raise RuntimeError('gh CLI is required') from exc
+    if proc.returncode == 0:
+        return False
+    combined = (proc.stdout or '') + '\n' + (proc.stderr or '')
+    if is_not_found_error(combined):
+        return True
+    raise RuntimeError(f'could not verify repository absence: {combined.strip()}')
+
+
 def append_event(path: pathlib.Path, event: dict[str, Any]) -> None:
     rows = load_jsonl(path)
     rows.append(event)
