@@ -2,8 +2,27 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 from urllib.parse import quote
 from _common import PASS_SAFETY, atomic_write_jsonl, gh_json, load_jsonl, project_root
+
+
+def metadata_fast_path_eligible(meta: dict) -> bool:
+    if not meta.get('fork') or not (meta.get('parent') or meta.get('source')):
+        return False
+    if meta.get('disabled') or meta.get('has_pages') or meta.get('has_discussions'):
+        return False
+    if int(meta.get('open_issues_count') or 0) != 0:
+        return False
+    created, pushed = meta.get('created_at'), meta.get('pushed_at')
+    if not created or not pushed:
+        return False
+    try:
+        created_dt = datetime.fromisoformat(created.replace('Z', '+00:00'))
+        pushed_dt = datetime.fromisoformat(pushed.replace('Z', '+00:00'))
+    except ValueError:
+        return False
+    return pushed_dt <= created_dt
 
 
 def classify_fork_evidence(*, compare: dict, refs: list[str], default_branch: str, source_accessible: bool) -> dict:
@@ -37,6 +56,18 @@ def analyze_one(row: dict) -> dict:
         'canonical_repo_id': int((source or parent)['id']),
     })
     branch = meta['default_branch']
+    if metadata_fast_path_eligible(meta):
+        out.update({
+            'safety_status':'PASS_METADATA_FAST_PATH',
+            'unique_state':False,
+            'reason':'NO_POST_FORK_PUSH_AND_NO_ACCOUNT_SIDE_ACTIVITY_SIGNALS',
+            'fast_path_evidence':{
+                'created_at':meta.get('created_at'),'pushed_at':meta.get('pushed_at'),
+                'has_pages':meta.get('has_pages'),'open_issues_count':meta.get('open_issues_count'),
+                'has_discussions':meta.get('has_discussions'),'source_accessible':True,
+            },
+        })
+        return out
     parent_branch = parent.get('default_branch') or branch
     head = f"granolacowboy:{branch}"
     try:
