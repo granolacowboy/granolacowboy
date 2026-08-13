@@ -5,7 +5,6 @@ on:
     branches: [repo-garden-staging]
     paths:
       - .github/workflows/repo-garden-sweep-a.yml
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,23 +19,27 @@ jobs:
     timeout-minutes: 20
     env:
       GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
-      - name: Checkout staging control plane
-        uses: actions/checkout@v4
-        with:
-          ref: repo-garden-staging
-          fetch-depth: 1
+      - name: Clone staging control plane without external actions
+        run: |
+          git clone --depth 1 --branch repo-garden-staging \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" work
 
       - name: Run Repository Garden unit tests
+        working-directory: work
         run: python3 -m unittest discover -s repo-garden/tests -v
 
       - name: Materialize read-only Sweep A
+        working-directory: work
         run: python3 repo-garden/scripts/materialize_sweep_a.py --date 2025-05-24
 
       - name: Validate state
+        working-directory: work
         run: python3 repo-garden/scripts/validate_state.py
 
       - name: Commit analysis state only
+        working-directory: work
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
