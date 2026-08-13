@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project": "github-repo-garden",
   "github_user": "granolacowboy",
   "control_repo_status": "REMOTE_PRIVATE_STAGING_BRANCH_ACTIVE",
@@ -10,11 +10,17 @@
   "forks_created_2026": 5,
   "may_2025_forks": 600,
   "may_24_2025_forks": 443,
+  "may_24_level0_no_later_push": 418,
+  "may_24_level1_post_fork_push": 25,
+  "may_24_level1_safety_pass": 23,
+  "may_24_level3_deferred_anomalies": 2,
   "inventory_complete": false,
   "current_sweep": "A_EXACT_FORK_STAR_OVERLAP",
-  "structural_records_persisted": 10,
+  "structural_records_persisted": 35,
   "recommended_delete_redundant": 9,
   "recommended_star_then_delete": 1,
+  "star_reconciliation_pending": 23,
+  "needs_judgment": 2,
   "approved_stars": 0,
   "approved_deletions": 0,
   "destructive_actions_executed": 0,
@@ -23,10 +29,10 @@
   "blockers": [
     "target private control repository granolacowboy/github-repo-garden does not yet exist",
     "GitHub connector exposes no create-repository/delete-repository/star/unstar actions",
-    "fresh star ID set is available via public GitHub REST reads but not yet fully materialized"
+    "fresh star ID set is readable via paginated public GitHub REST but cannot yet be materialized efficiently by this connector"
   ],
-  "last_updated": "2026-08-13T04:27:00Z",
-  "next_operation": "Persist bootstrap to private staging branch; materialize fresh star IDs; expand Sweep A over the 2025 bulk-fork cohorts; migrate staging atomically when github-repo-garden becomes writable.",
+  "last_updated": "2026-08-13T04:41:42Z",
+  "next_operation": "Implement guarded gh-based inventory/star reconciliation/analyze/queue/validation/execution scripts; then expand the 418-member May 24 Level-0 cohort and reconcile canonical upstreams against a fresh star-ID set when executable gh credentials are available.",
   "staging_repository": "granolacowboy/granolacowboy",
   "staging_branch": "repo-garden-staging",
   "staging_prefix": "repo-garden/"
