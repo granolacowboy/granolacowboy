@@ -1,0 +1,4 @@
+{
+  "dispositions": ["KEEP_ACTIVE","KEEP_ORIGINAL","KEEP_CUSTOM_FORK","DELETE_REDUNDANT_FORK","STAR_UPSTREAM_THEN_DELETE","PRESERVE_THEN_DELETE","ARCHIVE_ORIGINAL","DELETE_ORIGINAL","DEFER"],
+  "primary_categories": ["AI / LLM / Agent Systems","Automation / Workflow / Integration","Knowledge / PKM / Search / Obsidian","Legal Tech / Documents / Research","Data / Analytics / Visualization","Developer Tools / CLI / IDE","Self-hosting / Infrastructure / DevOps","Linux / Desktop / Systems","Security / Privacy / OSINT","Web / App Development","Business / CRM / Sales / Consulting","Media / Creative / Accessibility","Learning / Reference / Awesome Lists","Mobile / Embedded / IoT","Personal Utilities / Miscellaneous"]
+}
