@@ -8,6 +8,7 @@ I do the discovery, integration, evaluation, and adoption work that moves applie
 - 🔒 **How I work:** security-first, provenance-first, evaluation-driven. Deterministic tools with hard gates, not prompt-and-pray.
 - ✍️ **Writing:** field notes on deploying AI in regulated, change-resistant work at **[granolacowboy.dev](https://granolacowboy.dev)**.
 - 🧭 **Founder of [MHSB Solutions](https://github.com/MHSBai)** — applied AI and forward-deployed engineering for the legal profession.
+- 🛠️ **Currently:** shipping `intake-triage-mcp` and writing field notes on AI adoption in regulated work.
 
 ### Flagship
 
@@ -15,8 +16,7 @@ I do the discovery, integration, evaluation, and adoption work that moves applie
 
 ### Selected work
 
-- **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** — <sub>deterministic legal-intake triage over MCP; conflicts gate + eval harness.</sub>
-- **[llm-security-for-law-firms](https://github.com/granolacowboy/llm-security-for-law-firms)** — <sub>a practical threat model and adoption checklist for AI in regulated legal work.</sub>
+- **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms)** — <sub>a practical threat model and adoption checklist for AI in regulated legal work.</sub>
 - **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** — <sub>a minimal, reusable evaluation harness for legal-AI decision tools.</sub>
 - **[mhsb-intake-leak-calculator](https://github.com/granolacowboy/mhsb-intake-leak-calculator)** — <sub>a concrete legal-ops tool: quantify revenue lost to intake leakage.</sub>
 - **[recon-osint-antigravity-ci](https://github.com/granolacowboy/recon-osint-antigravity-ci)** — <sub>history-free public CI projection of a scoped recon/OSINT pipeline.</sub>
@@ -24,6 +24,6 @@ I do the discovery, integration, evaluation, and adoption work that moves applie
 
 ### Where to find me
 
-**[granolacowboy.dev](https://granolacowboy.dev)** · **[MHSB Solutions](https://github.com/MHSBai)** · [mhsbsolutions.com](https://mhsbsolutions.com)
+**[granolacowboy.dev](https://granolacowboy.dev)** · **[MHSB Solutions](https://github.com/MHSBai)** · [mhsbsolutions.com](https://mhsbsolutions.com) · [LinkedIn](https://www.linkedin.com/in/mhsb)
 
 <sub>Interested in forward-deployed and applied-AI roles and engagements where production adoption matters as much as model capability.</sub>
