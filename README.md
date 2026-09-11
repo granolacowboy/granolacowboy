@@ -1,29 +1,28 @@
-# Rich Berman
+# Rich Berman (`granolacowboy`)
 
-**Forward-deployed engineer, legal vertical.** Ten years shipping automation *inside* law firms: intake, conflicts, drafting pipelines. I bring a security researcher's habits to AI adoption.
+**Forward-deployed engineer, legal vertical.**
 
-I do the discovery, integration, evaluation, and adoption work that moves applied AI past the demo and into daily production use in regulated organizations, where auditability and adoption matter as much as model capability.
+I've spent ten years shipping automation *inside* law firms—building intake pipelines, conflict screening, and drafting engines. I’ve seen firsthand how high-value legal work gets buried under operational drag. That's why I bring a security researcher's habits to AI adoption. 
 
-- 🏛️ **Building:** deterministic, human-in-the-loop AI for legal operations: intake triage, conflict screening, matter validation, drafting.
-- 🔒 **How I work:** security-first, provenance-first, evaluation-driven. Deterministic tools with hard gates, not prompt-and-pray.
-- ✍️ **Writing:** field notes on deploying AI in regulated, change-resistant work at **[granolacowboy.dev](https://granolacowboy.dev)**.
-- 🧭 **Founder of [MHSB Solutions](https://github.com/MHSBai)**: applied AI and forward-deployed engineering for the legal profession.
-- 🛠️ **Currently:** shipping `intake-triage-mcp` and writing field notes on AI adoption in regulated work.
+I do the discovery, integration, evaluation, and adoption work that moves applied AI past the demo and into daily production use in regulated organizations. In this space, auditability, provenance, and adoption matter just as much as raw model capability.
 
-### Flagship
+### What I Build
 
-**[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** is a deterministic MCP server for legal intake triage: practice-area lookup, conflict-screening gate, matter validation, human override, provenance, and an evaluation harness. No LLM or network calls in the decision path.
+I focus on deterministic, human-in-the-loop AI for legal operations. Hard gates and override points, not prompt-and-pray.
 
-### Selected work
+*   **[`intake-triage-mcp`](https://github.com/granolacowboy/intake-triage-mcp):** A deterministic Model Context Protocol (MCP) server for legal intake triage. Handles conflict screening, matter validation, and triage logging without making rogue LLM calls. The LLM does the language work; the server does the record work.
+*   **[`mhsb-intake-leak-calculator`](https://github.com/granolacowboy/mhsb-intake-leak-calculator):** A browser-side TypeScript calculator estimating the annual revenue law firms lose to intake leakage.
 
-- **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms)**: <sub>a practical threat model and adoption checklist for AI in regulated legal work.</sub>
-- **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)**: <sub>a minimal, reusable evaluation harness for legal-AI decision tools.</sub>
-- **[mhsb-intake-leak-calculator](https://github.com/granolacowboy/mhsb-intake-leak-calculator)**: <sub>a concrete legal-ops tool: quantify revenue lost to intake leakage.</sub>
-- **[recon-osint-antigravity-ci](https://github.com/granolacowboy/recon-osint-antigravity-ci)**: <sub>history-free public CI projection of a scoped recon/OSINT pipeline.</sub>
-- **[granolacowboy.dev](https://github.com/granolacowboy/granolacowboy.dev)**: <sub>source of my site and field notes (Astro).</sub>
+### The MHSB Ecosystem
 
-### Where to find me
+I am the founder of the MHSB network, a suite of products and services bringing operational leverage to modern law firms:
 
-**[granolacowboy.dev](https://granolacowboy.dev)** · **[MHSB Solutions](https://github.com/MHSBai)** · [mhsbsolutions.com](https://mhsbsolutions.com) · [LinkedIn](https://www.linkedin.com/in/mhsb)
+*   **[MHSB Solutions](https://mhsbsolutions.com):** Strategy, implementation, and integration orchestration (Clio, Lawmatics, MyCase).
+*   **[LexLab Systems](https://lexlabsystems.com):** End-to-end automated Lawmatics engines deployed as productized systems.
+*   **[efficient.esq](https://efficient.esq):** Law-firm AI operating-model reviews and ABA Formal Opinion 512 diagnostics.
 
-<sub>Interested in forward-deployed and applied-AI roles and engagements where production adoption matters as much as model capability.</sub>
+### Writing & Field Notes
+
+I write about deploying AI in change-resistant verticals at **[granolacowboy.dev](https://granolacowboy.dev)**. 
+
+If you're building in LegalTech or navigating AI governance in a regulated space, let's talk.
