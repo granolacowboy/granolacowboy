@@ -1,35 +1,26 @@
 # Rich Berman (`granolacowboy`)
 
-**Ten years forward-deployed in the legal vertical.** I build and ship automation inside law firms: intake, conflict screening, and drafting pipelines. I bring a security researcher's habits to AI adoption, so the work ships with hard gates, provenance, and an attorney in the loop, not prompt-and-pray.
+**Ten years forward-deployed in the legal vertical.** I build intelligent automation for law firms. I moonlight as a security researcher.
 
-The client work is anonymized; the patterns are real, and the tools below are the reusable pieces.
-
-### What I build
+### Public repo examples
 
 - **[`intake-triage-mcp`](https://github.com/granolacowboy/intake-triage-mcp):** A deterministic Model Context Protocol server for legal intake triage. It runs conflict screening, matter validation, and triage logging with no unbounded model calls.
 - **[`intake-eval-harness`](https://github.com/granolacowboy/intake-eval-harness):** A deterministic harness that scores MCP tool-use against golden expectations and emits JUnit XML for CI (run on demand or scheduled).
 - **[`mhsb-intake-leak-calculator`](https://github.com/granolacowboy/mhsb-intake-leak-calculator):** A browser-only calculator estimating the annual revenue a firm loses to intake leakage, with sourced coefficients and zero tracking. [Try it live.](https://www.mhsbsolutions.com/tools/intake-revenue-leak-calculator/)
 - **[`llm-security-for-law-firms`](https://github.com/MHSBai/llm-security-for-law-firms):** A threat model and adoption checklist for deploying LLMs inside law firms. [Read it live.](https://mhsbai.github.io/llm-security-for-law-firms/)
 
-### Latest writing
-
-<!-- BLOG-POSTS:START -->
-- [What regulated-industry buyers actually need before they'll adopt AI](https://granolacowboy.dev/writing/post-3-regulated-buyers/)
-- [Anatomy of a legal intake automation](https://granolacowboy.dev/writing/post-2-intake-anatomy/)
-- [Deploying AI in a change-resistant vertical: field notes from a decade in law firms](https://granolacowboy.dev/writing/post-1-thesis/)
-<!-- BLOG-POSTS:END -->
 
 More field notes at **[granolacowboy.dev](https://granolacowboy.dev)**.
 
-### What I run
+### What I'm currently doing:
 
-- **[MHSB Solutions](https://mhsbsolutions.com):** Strategy, implementation, and integration for Clio, Lawmatics, and MyCase.
-- **[LexLabs](https://lexlabsystems.com):** Pre-built Lawmatics automations, installed for you.
+- **[MHSB Solutions](https://mhsbsolutions.com):** Strategy, implementation, and integration for law firms.
+- **[LexLabs](https://lexlabsystems.com):** Pre-built Lawmatics build-outs, installed for you.
 - **[efficient.esq](https://efficient.esq):** Law-firm AI operating-model reviews and ABA Formal Opinion 512 diagnostics.
 
 ### Contact
 
-Building in legal tech, or navigating AI governance in a regulated space? Reach me here.
+Please feel free to send me an email, I'd love to hear from you.
 
 - LinkedIn: **[in/mhsb](https://www.linkedin.com/in/mhsb)**
-- Email: **[hello@mhsbsolutions.com](mailto:hello@mhsbsolutions.com)**
+- Email: **[rich@mhsbsolutions.com](mailto:rich@mhsbsolutions.com)**
