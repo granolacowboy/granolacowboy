@@ -10,7 +10,7 @@ Deterministic, human-in-the-loop AI for legal operations. Hard gates and overrid
 
 - **[`intake-triage-mcp`](https://github.com/granolacowboy/intake-triage-mcp):** A deterministic Model Context Protocol (MCP) server for legal intake triage. Conflict screening, matter validation, and triage logging with no rogue LLM calls. The model does the language work; the server does the record work.
 - **[`intake-eval-harness`](https://github.com/granolacowboy/intake-eval-harness):** A deterministic evaluation harness that scores MCP tool-use against expectations and gates it in CI. "Done" means it passes an eval, not that it looks right.
-- **[`mhsb-intake-leak-calculator`](https://github.com/granolacowboy/mhsb-intake-leak-calculator):** A browser-only calculator estimating the annual revenue a law firm loses to intake leakage, with sourced coefficients and zero tracking.
+- **[`mhsb-intake-leak-calculator`](https://github.com/granolacowboy/mhsb-intake-leak-calculator):** A browser-only calculator estimating the annual revenue a law firm loses to intake leakage, with sourced coefficients and zero tracking. [Try it live.](https://www.mhsbsolutions.com/tools/intake-revenue-leak-calculator/)
 - **[`llm-security-for-law-firms`](https://github.com/MHSBai/llm-security-for-law-firms):** A practical threat model and adoption checklist for deploying LLMs inside law firms. [Read it live.](https://mhsbai.github.io/llm-security-for-law-firms/)
 
 ### Latest writing
