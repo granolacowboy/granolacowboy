@@ -6,12 +6,14 @@ I build the layer between legal operations and software: intake systems, workflo
 
 My public work emphasizes a simple idea: **use models for language and judgment support; use deterministic software for rules, records, gates, provenance, and verification.**
 
+**[Engineering methodology →](https://granolacowboy.dev/writing/post-4-deterministic-ai)** How I use AI agents to build deterministic systems without trusting the agents to be deterministic.
+
 ## Selected work
 
 | Project | What it demonstrates |
 |---|---|
 | **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** | A deterministic MCP server for legal intake triage with structured validation, provenance, a hard conflicts gate, and append-only logging. No model or network calls in the decision path. |
-| **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** | A reusable harness for testing tool-using MCP systems against golden expectations across stdio, SSE, and streamable HTTP. |
+| **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** | A reusable MCP evaluation harness for deterministic answer scoring, required/forbidden tool assertions, execution-order constraints, and provenance across stdio, SSE, and streamable HTTP. |
 | **[mhsb-intake-leak-calculator](https://github.com/granolacowboy/mhsb-intake-leak-calculator)** | A browser-only law-firm intake model with explicit assumptions, sourced coefficients, automated tests, accessibility checks, and zero runtime tracking. **[Live tool](https://www.mhsbsolutions.com/tools/intake-revenue-leak-calculator/)** |
 | **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms)** | A practical threat model and adoption checklist for using LLMs in law firms. **[Read it](https://mhsbai.github.io/llm-security-for-law-firms/)** |
 | **[granolacowboy.dev](https://github.com/granolacowboy/granolacowboy.dev)** | Source for my technical field notes and case studies, built as a minimal static Astro site with build-time verification. **[Visit](https://granolacowboy.dev)** |
