@@ -12,8 +12,8 @@ My public work emphasizes a simple idea: **use models for language and judgment 
 
 | Project | What it demonstrates |
 |---|---|
-| **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** | A deterministic MCP server for legal intake triage with structured validation, provenance, a hard conflicts gate, and append-only logging. No model or network calls in the decision path. |
-| **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** | A reusable MCP evaluation harness for deterministic answer scoring, required/forbidden tool assertions, execution-order constraints, and provenance across stdio, SSE, and streamable HTTP. |
+| **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** | A deterministic MCP server for legal intake triage with structured validation, provenance, a hard conflicts gate, adversarial regression tests, and append-only logging. No model or network calls in the decision path. **[System proof](https://granolacowboy.dev/projects/intake-safety/)** |
+| **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** | A reusable MCP evaluation harness for answer + execution-trace assertions, JSON/JUnit evidence, provenance, latency/call budgets, and regression gates across stdio, SSE, and streamable HTTP. |
 | **[mhsb-intake-leak-calculator](https://github.com/granolacowboy/mhsb-intake-leak-calculator)** | A browser-only law-firm intake model with explicit assumptions, sourced coefficients, automated tests, accessibility checks, and zero runtime tracking. **[Live tool](https://www.mhsbsolutions.com/tools/intake-revenue-leak-calculator/)** |
 | **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms)** | A practical threat model and adoption checklist for using LLMs in law firms. **[Read it](https://mhsbai.github.io/llm-security-for-law-firms/)** |
 | **[granolacowboy.dev](https://github.com/granolacowboy/granolacowboy.dev)** | Source for my technical field notes and case studies, built as a minimal static Astro site with build-time verification. **[Visit](https://granolacowboy.dev)** |
@@ -33,6 +33,10 @@ My public work emphasizes a simple idea: **use models for language and judgment 
 - **[LexLabs](https://lexlabsystems.com)** — productized Lawmatics implementation systems.
 - **[efficient.esq](https://efficient.esq)** — law-firm AI operating-model and governance work.
 - **Defensive security research** — hardening the systems, agents, and infrastructure used to run the above safely.
+
+## Public proof chain
+
+The flagship intake work is deliberately split into inspectable layers: **[system demonstration](https://granolacowboy.dev/projects/intake-safety/)** → **[deterministic MCP](https://github.com/granolacowboy/intake-triage-mcp)** → **[golden suite](https://github.com/granolacowboy/intake-triage-mcp/blob/main/evals/evaluation.xml)** → **[evaluation harness](https://github.com/granolacowboy/intake-eval-harness)** → release evidence.
 
 ## Research library
 
