@@ -45,6 +45,9 @@ The flagship intake work is deliberately split into inspectable layers: **[syste
 ## Contact
 
 - **Website:** [granolacowboy.dev](https://granolacowboy.dev)
+- **Hugging Face:** [huggingface.co/granolacowboy](https://huggingface.co/granolacowboy)
+- **GitLab:** [gitlab.com/granolacowboy](https://gitlab.com/granolacowboy)
+- **Kaggle:** [kaggle.com/granolacowboy](https://www.kaggle.com/granolacowboy)
 - **MHSB Solutions:** [mhsbsolutions.com](https://mhsbsolutions.com)
 - **LinkedIn:** [linkedin.com/in/mhsb](https://www.linkedin.com/in/mhsb)
 - **Email:** [rich@mhsbsolutions.com](mailto:rich@mhsbsolutions.com)
