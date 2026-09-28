@@ -42,6 +42,13 @@ The flagship intake work is deliberately split into inspectable layers: **[syste
 
 **[stars](https://github.com/granolacowboy/stars)** is my automatically maintained GitHub research index: thousands of repositories organized into topic-specific lists across AI, agents, security, automation, infrastructure, legal technology, and adjacent tooling.
 
+## Latest writing
+
+<!-- BLOG-POSTS:START -->
+- [How I use AI agents to build deterministic systems without trusting the agents to be deterministic](https://granolacowboy.dev/writing/post-4-deterministic-ai/)
+- [Anatomy of a legal intake automation](https://granolacowboy.dev/writing/post-2-intake-anatomy/)
+<!-- BLOG-POSTS:END -->
+
 ## Contact
 
 - **Website:** [granolacowboy.dev](https://granolacowboy.dev)
