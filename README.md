@@ -25,14 +25,14 @@ My public work emphasizes a simple idea: **use models for language and judgment 
 - **Preserve provenance.** A useful answer should make it possible to identify what data, rule, assumption, or source produced it.
 - **Keep humans in the control plane.** Automation should surface decisions and exceptions clearly instead of hiding them behind “AI.”
 - **Minimize unnecessary data movement.** Local-first and browser-only designs are preferable when the workflow does not require a remote service.
-- **Measure operational outcomes.** Technology should improve throughput, quality, response time, consistency, or decision visibility—not merely add another interface.
+- **Measure operational outcomes.** Technology should improve throughput, quality, response time, consistency, or decision visibility, not merely add another interface.
 
 ## Current work
 
-- **[MHSB Solutions](https://mhsbsolutions.com)** — legal-technology strategy, implementation, workflow automation, integrations, reporting, and AI enablement for law firms.
-- **[LexLabs](https://lexlabsystems.com)** — productized Lawmatics implementation systems.
-- **[efficient.esq](https://efficient.esq)** — law-firm AI operating-model and governance work.
-- **Defensive security research** — hardening the systems, agents, and infrastructure used to run the above safely.
+- **[MHSB Solutions](https://mhsbsolutions.com)**: legal-technology strategy, implementation, workflow automation, integrations, reporting, and AI enablement for law firms.
+- **[LexLabs](https://lexlabsystems.com)**: productized Lawmatics implementation systems.
+- **[efficient.esq](https://efficient.esq)**: law-firm AI operating-model and governance work.
+- **Defensive security research**: hardening the systems, agents, and infrastructure used to run the above safely.
 
 ## Public proof chain
 
