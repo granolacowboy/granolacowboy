@@ -45,7 +45,9 @@ The flagship intake work is deliberately split into inspectable layers: **[syste
 ## Latest writing
 
 <!-- BLOG-POSTS:START -->
-- [How I use AI agents to build deterministic systems without trusting the agents to be deterministic](https://granolacowboy.dev/writing/post-4-deterministic-ai/)
+- [intake-eval-harness: an evaluation harness for tool-using MCP servers](https://granolacowboy.dev/links/2026-10-07-intake-eval-harness/)
+- [mhsb-intake-leak-calculator: a browser-only intake revenue-leak calculator](https://granolacowboy.dev/links/2026-10-07-mhsb-intake-leak-calculator/)
+- [stars: a categorized index of my starred repositories](https://granolacowboy.dev/links/2026-10-07-stars/)
 - [Anatomy of a legal intake automation](https://granolacowboy.dev/writing/post-2-intake-anatomy/)
 <!-- BLOG-POSTS:END -->
 
